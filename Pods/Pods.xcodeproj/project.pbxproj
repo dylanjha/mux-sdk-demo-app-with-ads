@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7362DAB47E2EFA5452F30DD7E9830B56 /* GoogleAds-IMA-iOS-SDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E0947F7804C6387890E85B00E14F35E6 /* Build configuration list for PBXAggregateTarget "GoogleAds-IMA-iOS-SDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "GoogleAds-IMA-iOS-SDK";
+		};
+		78D7420028AA6BE7CBA9A3DC7529E196 /* Mux-Stats-Core */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4D699F94BAB680F2DB077EB4B62736F5 /* Build configuration list for PBXAggregateTarget "Mux-Stats-Core" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "Mux-Stats-Core";
+		};
+		8A628F9FECD1E366F0AF90449C4E8B0A /* Mux-Stats-AVPlayer */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3A158E1E5FE36E574474162F87C91BF5 /* Build configuration list for PBXAggregateTarget "Mux-Stats-AVPlayer" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "Mux-Stats-AVPlayer";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		E6A33BE195A8191AB4E097B68F587B89 /* Pods-DemoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2730E903BDDB219E5450D06514E6630 /* Pods-DemoApp-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		499E14E03DD9DB689AB75B27276989C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78D7420028AA6BE7CBA9A3DC7529E196;
+			remoteInfo = "Mux-Stats-Core";
+		};
+		9D00A820DD608DA6D4C6A97DEE9D8DF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A628F9FECD1E366F0AF90449C4E8B0A;
+			remoteInfo = "Mux-Stats-AVPlayer";
+		};
+		EDA26378D74F0E9705DC13C14E960883 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7362DAB47E2EFA5452F30DD7E9830B56;
+			remoteInfo = "GoogleAds-IMA-iOS-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D54B5680797DFD9948D4994A3B631B /* GoogleInteractiveMediaAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInteractiveMediaAds.framework; sourceTree = "<group>"; };
+		3D333EB473CCD1DE28D0008DCC74FA17 /* MuxCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MuxCore.framework; path = Frameworks/iOS/fat/MuxCore.framework; sourceTree = "<group>"; };
+		47C7C917A912EFD8CA6E2475DCAACF61 /* Pods-DemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4FE3A8914DCE32ADB404396D24D8F340 /* libPods-DemoApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DemoApp.a"; path = "libPods-DemoApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E78A78BAAAB2E4A24B360AC229CCAF /* Pods-DemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		8BC9ECBD79EBC4EB3BFD7BE825BA3054 /* Pods-DemoApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoApp-frameworks.sh"; sourceTree = "<group>"; };
+		9379D548EA932CA7F79D97F635FDA036 /* MUXSDKStats.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MUXSDKStats.framework; path = Frameworks/iOS/fat/MUXSDKStats.framework; sourceTree = "<group>"; };
+		96FCE79415AFDD1FA37FFB1CEC8AEDD4 /* Pods-DemoApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A98040C2041942ED4571FE9DDBC30334 /* Mux-Stats-AVPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mux-Stats-AVPlayer.xcconfig"; sourceTree = "<group>"; };
+		B732BB3F9C8570F83FC0077AF3FFAE3B /* Mux-Stats-Core.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mux-Stats-Core.xcconfig"; sourceTree = "<group>"; };
+		C5FC284AEBF8304B5B817DF79AE0484C /* GoogleAds-IMA-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GoogleAds-IMA-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
+		F2730E903BDDB219E5450D06514E6630 /* Pods-DemoApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoApp-dummy.m"; sourceTree = "<group>"; };
+		FD7900BC263D4DC1E8E3093E39EB2D91 /* Pods-DemoApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA596C02003B25D429F895C7349509E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19DE9F7C7AAA8FA657AD9D999FF43839 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AB096C0DAEF645885067981048A1715 /* GoogleAds-IMA-iOS-SDK */,
+				2E7DA46597545F01025F2AE0EC52DC8E /* Mux-Stats-AVPlayer */,
+				E8C2675476AB270A5B87DFFDF03BBD5E /* Mux-Stats-Core */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		21FD70DA1455EDC5199A17974AA3784F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D7B4FD4B9BA6D213A3A424B4BBC8205 /* Pods-DemoApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		29F85440047C01152B30951C1CF6EA78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9379D548EA932CA7F79D97F635FDA036 /* MUXSDKStats.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E7DA46597545F01025F2AE0EC52DC8E /* Mux-Stats-AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				29F85440047C01152B30951C1CF6EA78 /* Frameworks */,
+				E5F472786F642DF5D0524431E85073ED /* Support Files */,
+			);
+			name = "Mux-Stats-AVPlayer";
+			path = "Mux-Stats-AVPlayer";
+			sourceTree = "<group>";
+		};
+		30ACB65A04E7B2B73C21720B5F644E50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03D54B5680797DFD9948D4994A3B631B /* GoogleInteractiveMediaAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AB574AA4DA4C21A24A2DA95F979758D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5FC284AEBF8304B5B817DF79AE0484C /* GoogleAds-IMA-iOS-SDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleAds-IMA-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		6AB096C0DAEF645885067981048A1715 /* GoogleAds-IMA-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				30ACB65A04E7B2B73C21720B5F644E50 /* Frameworks */,
+				5AB574AA4DA4C21A24A2DA95F979758D /* Support Files */,
+			);
+			name = "GoogleAds-IMA-iOS-SDK";
+			path = "GoogleAds-IMA-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		8E6179479E6549D1A573BEC2DC09C303 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D333EB473CCD1DE28D0008DCC74FA17 /* MuxCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D7B4FD4B9BA6D213A3A424B4BBC8205 /* Pods-DemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				FD7900BC263D4DC1E8E3093E39EB2D91 /* Pods-DemoApp-acknowledgements.markdown */,
+				96FCE79415AFDD1FA37FFB1CEC8AEDD4 /* Pods-DemoApp-acknowledgements.plist */,
+				F2730E903BDDB219E5450D06514E6630 /* Pods-DemoApp-dummy.m */,
+				8BC9ECBD79EBC4EB3BFD7BE825BA3054 /* Pods-DemoApp-frameworks.sh */,
+				47C7C917A912EFD8CA6E2475DCAACF61 /* Pods-DemoApp.debug.xcconfig */,
+				58E78A78BAAAB2E4A24B360AC229CCAF /* Pods-DemoApp.release.xcconfig */,
+			);
+			name = "Pods-DemoApp";
+			path = "Target Support Files/Pods-DemoApp";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				19DE9F7C7AAA8FA657AD9D999FF43839 /* Pods */,
+				DAEB936FB617A0372EE9C1FDBAA5F53C /* Products */,
+				21FD70DA1455EDC5199A17974AA3784F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAEB936FB617A0372EE9C1FDBAA5F53C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FE3A8914DCE32ADB404396D24D8F340 /* libPods-DemoApp.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2EF9D18C18AB9328ABD5F08540BDF6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B732BB3F9C8570F83FC0077AF3FFAE3B /* Mux-Stats-Core.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Mux-Stats-Core";
+			sourceTree = "<group>";
+		};
+		E5F472786F642DF5D0524431E85073ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A98040C2041942ED4571FE9DDBC30334 /* Mux-Stats-AVPlayer.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Mux-Stats-AVPlayer";
+			sourceTree = "<group>";
+		};
+		E8C2675476AB270A5B87DFFDF03BBD5E /* Mux-Stats-Core */ = {
+			isa = PBXGroup;
+			children = (
+				8E6179479E6549D1A573BEC2DC09C303 /* Frameworks */,
+				E2EF9D18C18AB9328ABD5F08540BDF6E /* Support Files */,
+			);
+			name = "Mux-Stats-Core";
+			path = "Mux-Stats-Core";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BAF59708135A7B1B90E1E13DB311537 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BC258032FFF5C240A561B274C5D07F4 /* Pods-DemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D2214E205FC8DDAE6CFF0A34C283E4A /* Build configuration list for PBXNativeTarget "Pods-DemoApp" */;
+			buildPhases = (
+				1BAF59708135A7B1B90E1E13DB311537 /* Headers */,
+				A5B60894B3B86E212D48ECC33B217870 /* Sources */,
+				BA596C02003B25D429F895C7349509E3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20927473A638E6B95ED4CEF50ACB1FC /* PBXTargetDependency */,
+				E95EC50D4AE6D8207C6F78C9B1C298DB /* PBXTargetDependency */,
+				B259B11D1DBA6905B5CB3001C4E685E9 /* PBXTargetDependency */,
+			);
+			name = "Pods-DemoApp";
+			productName = "Pods-DemoApp";
+			productReference = 4FE3A8914DCE32ADB404396D24D8F340 /* libPods-DemoApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DAEB936FB617A0372EE9C1FDBAA5F53C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7362DAB47E2EFA5452F30DD7E9830B56 /* GoogleAds-IMA-iOS-SDK */,
+				8A628F9FECD1E366F0AF90449C4E8B0A /* Mux-Stats-AVPlayer */,
+				78D7420028AA6BE7CBA9A3DC7529E196 /* Mux-Stats-Core */,
+				1BC258032FFF5C240A561B274C5D07F4 /* Pods-DemoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5B60894B3B86E212D48ECC33B217870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A33BE195A8191AB4E097B68F587B89 /* Pods-DemoApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B20927473A638E6B95ED4CEF50ACB1FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GoogleAds-IMA-iOS-SDK";
+			target = 7362DAB47E2EFA5452F30DD7E9830B56 /* GoogleAds-IMA-iOS-SDK */;
+			targetProxy = EDA26378D74F0E9705DC13C14E960883 /* PBXContainerItemProxy */;
+		};
+		B259B11D1DBA6905B5CB3001C4E685E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mux-Stats-Core";
+			target = 78D7420028AA6BE7CBA9A3DC7529E196 /* Mux-Stats-Core */;
+			targetProxy = 499E14E03DD9DB689AB75B27276989C2 /* PBXContainerItemProxy */;
+		};
+		E95EC50D4AE6D8207C6F78C9B1C298DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mux-Stats-AVPlayer";
+			target = 8A628F9FECD1E366F0AF90449C4E8B0A /* Mux-Stats-AVPlayer */;
+			targetProxy = 9D00A820DD608DA6D4C6A97DEE9D8DF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12EB8D021B746CD9B3D3B83404BC8EB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B732BB3F9C8570F83FC0077AF3FFAE3B /* Mux-Stats-Core.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5627A73FD6078094524BE3EA32B6230C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FC284AEBF8304B5B817DF79AE0484C /* GoogleAds-IMA-iOS-SDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		683AE83301FC56680DB91E4D74CBC575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98040C2041942ED4571FE9DDBC30334 /* Mux-Stats-AVPlayer.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73796F07C5966314EAE1F5A4D16663B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98040C2041942ED4571FE9DDBC30334 /* Mux-Stats-AVPlayer.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9374521D9ADB365F77951BA317A233B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B732BB3F9C8570F83FC0077AF3FFAE3B /* Mux-Stats-Core.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1ACA014E00021EE5F06DF727560DF9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FC284AEBF8304B5B817DF79AE0484C /* GoogleAds-IMA-iOS-SDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9D8387C60E221C5FA28D67763FF098B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E78A78BAAAB2E4A24B360AC229CCAF /* Pods-DemoApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF8E98BAA74BA58396025560A08FCFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C7C917A912EFD8CA6E2475DCAACF61 /* Pods-DemoApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A158E1E5FE36E574474162F87C91BF5 /* Build configuration list for PBXAggregateTarget "Mux-Stats-AVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73796F07C5966314EAE1F5A4D16663B9 /* Debug */,
+				683AE83301FC56680DB91E4D74CBC575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D699F94BAB680F2DB077EB4B62736F5 /* Build configuration list for PBXAggregateTarget "Mux-Stats-Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9374521D9ADB365F77951BA317A233B7 /* Debug */,
+				12EB8D021B746CD9B3D3B83404BC8EB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D2214E205FC8DDAE6CFF0A34C283E4A /* Build configuration list for PBXNativeTarget "Pods-DemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8E98BAA74BA58396025560A08FCFA5 /* Debug */,
+				D9D8387C60E221C5FA28D67763FF098B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0947F7804C6387890E85B00E14F35E6 /* Build configuration list for PBXAggregateTarget "GoogleAds-IMA-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1ACA014E00021EE5F06DF727560DF9A /* Debug */,
+				5627A73FD6078094524BE3EA32B6230C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
