@@ -2,6 +2,7 @@
 
 @import MuxCore;
 @import MUXSDKStats;
+@import MUXSDKImaListener;
 
 static NSString *DEMO_PLAYER_NAME = @"demoplayer";
 
@@ -64,7 +65,7 @@ static NSString *DEMO_PLAYER_NAME = @"demoplayer";
         [_adsManager start];
     }
     if (_imaListener != nil) {
-        [_imaListener dispatchEvent: event];
+        [_imaListener dispatchEvent:event];
     }
 }
 
@@ -77,7 +78,9 @@ static NSString *DEMO_PLAYER_NAME = @"demoplayer";
 
 - (void)adsManagerDidRequestContentPause:(IMAAdsManager *)adsManager {
     [_avplayer pause];
-    [_imaListener onContentPauseOrResume:true];
+    if (_imaListener != nil) {
+        [_imaListener onContentPauseOrResume:true];
+    }
 }
 
 - (void)adsManagerDidRequestContentResume:(IMAAdsManager *)adsManager {
@@ -115,17 +118,16 @@ static NSString *DEMO_PLAYER_NAME = @"demoplayer";
     videoData.videoTitle = @"Big Buck Bunny";
     videoData.videoId = @"bigbuckbunny";
     videoData.videoSeries = @"animation";
-    [MUXSDKStats monitorAVPlayerViewController:_avplayerController
+    _playerBinding = [MUXSDKStats monitorAVPlayerViewController:_avplayerController
                                 withPlayerName:DEMO_PLAYER_NAME
                                     playerData:playerData
                                      videoData:videoData];
+    _imaListener = [[MuxImaListener alloc] initWithPlayerBinding:_playerBinding];
     [_avplayer play];
 
     [self addChildViewController:_avplayerController];
     [self.view addSubview:_avplayerController.view];
     _avplayerController.view.frame = self.view.frame;
-
-    _imaListener = [MUXSDKStats getImaAdsListener:DEMO_PLAYER_NAME];
 }
 
 - (void)changeVideo:(NSTimer *)timer {

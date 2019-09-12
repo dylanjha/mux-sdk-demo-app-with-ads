@@ -1,24 +1,41 @@
 PODS:
-  - GoogleAds-IMA-iOS-SDK (3.7.3)
-  - Mux-Stats-AVPlayer (0.1.4)
-  - Mux-Stats-Core (2.0.6)
+  - GoogleAds-IMA-iOS-SDK (3.9.2)
+  - Mux-Stats-AVPlayer (0.1.5):
+    - Mux-Stats-Core (~> 2.0.0)
+  - Mux-Stats-Core (2.0.7)
+  - MUXSDKImaListener (0.1.0):
+    - GoogleAds-IMA-iOS-SDK (~> 3.9)
+    - Mux-Stats-AVPlayer (~> 0.1.5)
+    - Mux-Stats-Core (~> 2.0.0)
 
 DEPENDENCIES:
-  - GoogleAds-IMA-iOS-SDK (~> 3.7)
-  - Mux-Stats-AVPlayer (~> 0.1.0)
-  - Mux-Stats-Core (~> 2.0.0)
+  - GoogleAds-IMA-iOS-SDK (~> 3.9)
+  - Mux-Stats-AVPlayer (from `https://github.com/muxinc/mux-stats-sdk-avplayer`, branch `dj/extract-ima-listener`)
+  - "MUXSDKImaListener (from `~/code/@muxinc/MUXSDKImaListener`)"
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - GoogleAds-IMA-iOS-SDK
-    - Mux-Stats-AVPlayer
     - Mux-Stats-Core
 
-SPEC CHECKSUMS:
-  GoogleAds-IMA-iOS-SDK: 6dc764910309dcc982d6eb8b7de19d3cf94a6857
-  Mux-Stats-AVPlayer: 9647e010f4c8adab0bc98baa17c1c19a1bd976ee
-  Mux-Stats-Core: 34ff82aec4176ee6439a7767b6722af32f108539
+EXTERNAL SOURCES:
+  Mux-Stats-AVPlayer:
+    :branch: dj/extract-ima-listener
+    :git: https://github.com/muxinc/mux-stats-sdk-avplayer
+  MUXSDKImaListener:
+    :path: "~/code/@muxinc/MUXSDKImaListener"
 
-PODFILE CHECKSUM: b7d9092d487fb82454423fbd845252ddc506ed66
+CHECKOUT OPTIONS:
+  Mux-Stats-AVPlayer:
+    :commit: 9156354721b6dcc4d1178d1e88bd06f24bf60680
+    :git: https://github.com/muxinc/mux-stats-sdk-avplayer
+
+SPEC CHECKSUMS:
+  GoogleAds-IMA-iOS-SDK: 005e7670c266ee28ad72d730309f396ad7f440a0
+  Mux-Stats-AVPlayer: 073b7a010aa5e15ca6645603bfdab7ea06912e11
+  Mux-Stats-Core: a766e391d7d1802440c8711c0fea8c7405964eae
+  MUXSDKImaListener: f7ec07cc6adf80d3f1867e373a7e4d5c63e06225
+
+PODFILE CHECKSUM: cf565f23e0a5482c1f25f81a1f87694f622ae3a8
 
 COCOAPODS: 1.7.5
