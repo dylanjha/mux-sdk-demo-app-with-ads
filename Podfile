@@ -7,6 +7,6 @@ target 'DemoApp' do
 
   # Pods for DemoApp
   pod 'Mux-Stats-AVPlayer', :git => 'https://github.com/muxinc/mux-stats-sdk-avplayer', :branch => 'dj/extract-ima-listener'
-  pod 'MUXSDKImaListener', :path => '~/code/@muxinc/MUXSDKImaListener'
+  pod 'Mux-Stats-Google-IMA', :path => '~/code/@muxinc/mux-sdk-ima-listener'
   pod 'GoogleAds-IMA-iOS-SDK', '~> 3.9'
 end

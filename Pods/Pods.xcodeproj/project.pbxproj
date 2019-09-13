@@ -18,7 +18,7 @@
 		};
 		78D7420028AA6BE7CBA9A3DC7529E196 /* Mux-Stats-Core */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = B995C864D28D0796B49C3DA8BA848F77 /* Build configuration list for PBXAggregateTarget "Mux-Stats-Core" */;
+			buildConfigurationList = 58BB8F9430E15506669FA6A271ED11A1 /* Build configuration list for PBXAggregateTarget "Mux-Stats-Core" */;
 			buildPhases = (
 			);
 			dependencies = (
@@ -27,135 +27,133 @@
 		};
 		8A628F9FECD1E366F0AF90449C4E8B0A /* Mux-Stats-AVPlayer */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = C7A6AA050D21CA1CF4032555B16F1BDC /* Build configuration list for PBXAggregateTarget "Mux-Stats-AVPlayer" */;
+			buildConfigurationList = A74AD33A16ED04790C3131C3191DBC97 /* Build configuration list for PBXAggregateTarget "Mux-Stats-AVPlayer" */;
 			buildPhases = (
 			);
 			dependencies = (
-				E7D87F6C378CF0A6620D7938838D0DA9 /* PBXTargetDependency */,
+				B10BAA4E0861A6EFB4128DBEE53CF988 /* PBXTargetDependency */,
 			);
 			name = "Mux-Stats-AVPlayer";
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		28D4DBAB062EC2C8999C1EEA0FB19088 /* MuxImaListener.h in Headers */ = {isa = PBXBuildFile; fileRef = ADDB824F60B48C4047CAAB190C901791 /* MuxImaListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34D2A655B915E7108FEDD6EEB4EDE70A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3B47542C46C0E6F90C9079E60F7FD9D1 /* MUXSDKImaListener-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0818C34EA82020C028C5145E38F23C3 /* MUXSDKImaListener-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D5DE0CFAAFF4D08A12C4B7F75163C4C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BE98F4FB49D535BE293DC9D5C9FE344D /* ReplaceMe.m */; };
-		613C0EF1BE042810CE44E7C74165AC67 /* Pods-DemoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AA908D121ABF1F446FF239741E14A5 /* Pods-DemoApp-dummy.m */; };
-		727485D2B7E23BEBD66265D28A6469A7 /* MuxImaListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1D2B62F833585CA32069B8CF948DC8 /* MuxImaListener.m */; };
-		8DA233CC4C4F4C471F7486FE1DFD9BAE /* MUXSDKImaListener-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BD946B45136834F679D31423AA0B35 /* MUXSDKImaListener-dummy.m */; };
-		99F89030F722487033EF1C43B7EE6E8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C929995A8521449BA33A3346A2E2F63B /* Pods-DemoApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 699A7073FA37A911ADA3E1967F70BE98 /* Pods-DemoApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FD43623F288B0FCDAFB08156B2671A6 /* Mux-Stats-Google-IMA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EBCC5C4266BEAD38A462E62E3907BEF /* Mux-Stats-Google-IMA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55603032262A856AD9323ED7D3D06340 /* Mux-Stats-Google-IMA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7D9E8255767E7571B664781CACBD7B /* Mux-Stats-Google-IMA-dummy.m */; };
+		7B27210A01AEF542819555D359B67AFF /* Pods-DemoApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 699A7073FA37A911ADA3E1967F70BE98 /* Pods-DemoApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80CA70B0BBD126281B22DD7D65477629 /* MuxImaListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC82AC064E0F4EDB7A66594666342F1 /* MuxImaListener.m */; };
+		C67D61438BE5AE7564AE669872D2B2DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CAA8DA4B129598E2E3C154FE62EBB917 /* MuxImaListener.h in Headers */ = {isa = PBXBuildFile; fileRef = A348704657485029A10E36D9E632A8C6 /* MuxImaListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F08469AA9EBCAB9B4855E5B272BA1B96 /* Pods-DemoApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AA908D121ABF1F446FF239741E14A5 /* Pods-DemoApp-dummy.m */; };
+		FE9300599ACEC8DA78FE345175D13D67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		02FB8CED1A7393DE9AA1E53B08CAB0B7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BF328CAAB8BCE91E104528587663FD4F;
-			remoteInfo = MUXSDKImaListener;
-		};
-		05B9747578231251C3E9B247CB2EA887 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8A628F9FECD1E366F0AF90449C4E8B0A;
-			remoteInfo = "Mux-Stats-AVPlayer";
-		};
-		303716674B6B64496A84E9219D4EF263 /* PBXContainerItemProxy */ = {
+		1057D68825BFCD5F9C2513DDEDF53984 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 78D7420028AA6BE7CBA9A3DC7529E196;
 			remoteInfo = "Mux-Stats-Core";
 		};
-		615C17CBDAD26C1CEAE13F440D34E107 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 78D7420028AA6BE7CBA9A3DC7529E196;
-			remoteInfo = "Mux-Stats-Core";
-		};
-		7545C1AC6306CBF018C4A7C13254023C /* PBXContainerItemProxy */ = {
+		2947EAA9F4BC9017913900F596F9A8AD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7362DAB47E2EFA5452F30DD7E9830B56;
 			remoteInfo = "GoogleAds-IMA-iOS-SDK";
 		};
-		9F8C2334A0CB264D0AD2AD503DDCF38C /* PBXContainerItemProxy */ = {
+		4D4950496D387C9000C25DFE5F904BDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78D7420028AA6BE7CBA9A3DC7529E196;
+			remoteInfo = "Mux-Stats-Core";
+		};
+		8656E204D1338FA134DB7E000AE1AD6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7362DAB47E2EFA5452F30DD7E9830B56;
 			remoteInfo = "GoogleAds-IMA-iOS-SDK";
 		};
-		CDC75711933BA2CCE241725A8A70D284 /* PBXContainerItemProxy */ = {
+		8A4DEAC423FE6BAD952DC933B04A1F23 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8A628F9FECD1E366F0AF90449C4E8B0A;
 			remoteInfo = "Mux-Stats-AVPlayer";
 		};
-		F3A521F4C8F3B1ECD8559748305D6AEA /* PBXContainerItemProxy */ = {
+		AB28DFBDD6501F1A56D44AE83C926462 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 78D7420028AA6BE7CBA9A3DC7529E196;
 			remoteInfo = "Mux-Stats-Core";
+		};
+		D5A27D7624041FFD2572C15D4761DC12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A628F9FECD1E366F0AF90449C4E8B0A;
+			remoteInfo = "Mux-Stats-AVPlayer";
+		};
+		E68C3967CE3C4B04DC3146B8A504F15F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B1CCC34C9408E694F9538659E347B13;
+			remoteInfo = "Mux-Stats-Google-IMA";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03D54B5680797DFD9948D4994A3B631B /* GoogleInteractiveMediaAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInteractiveMediaAds.framework; sourceTree = "<group>"; };
-		09D4173E1C055F00E21BED649554EC2D /* MUXSDKImaListener-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MUXSDKImaListener-Info.plist"; sourceTree = "<group>"; };
-		21FE8DF43A4F390F6B28D52BF20A569B /* MUXSDKImaListener.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MUXSDKImaListener.xcconfig; sourceTree = "<group>"; };
 		22B064629CAE40CF72499DD6D67646C1 /* Pods-DemoApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E2F799CE3272DF9EEDF550382F47CDC /* Mux-Stats-Google-IMA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mux-Stats-Google-IMA-prefix.pch"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		368A66339C5091DF839FF9B79C77F1E6 /* Mux-Stats-Google-IMA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Mux-Stats-Google-IMA.modulemap"; sourceTree = "<group>"; };
 		3D333EB473CCD1DE28D0008DCC74FA17 /* MuxCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MuxCore.framework; path = Frameworks/iOS/fat/MuxCore.framework; sourceTree = "<group>"; };
-		4B646DB27F9B47BA3119DDA348054C39 /* MUXSDKImaListener.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MUXSDKImaListener.modulemap; sourceTree = "<group>"; };
+		4EC82AC064E0F4EDB7A66594666342F1 /* MuxImaListener.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MuxImaListener.m; path = MUXSDKImaListener/Classes/MuxImaListener.m; sourceTree = "<group>"; };
 		4FE3A8914DCE32ADB404396D24D8F340 /* Pods_DemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoApp.framework; path = "Pods-DemoApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E1D2B62F833585CA32069B8CF948DC8 /* MuxImaListener.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MuxImaListener.m; path = MUXSDKImaListener/Classes/MuxImaListener.m; sourceTree = "<group>"; };
-		5F5638DEC18488EFE512C54305C6709D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5552349ACD4BEE698B04B5C3F21E46F7 /* Mux_Stats_Google_IMA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mux_Stats_Google_IMA.framework; path = "Mux-Stats-Google-IMA.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3855E09A6779DD3C93E24C6E717D3C /* Mux-Stats-Google-IMA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "Mux-Stats-Google-IMA.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		64F7736E91647FB1D500612961266F46 /* Pods-DemoApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoApp.modulemap"; sourceTree = "<group>"; };
 		699A7073FA37A911ADA3E1967F70BE98 /* Pods-DemoApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoApp-umbrella.h"; sourceTree = "<group>"; };
-		6AD2EA0D2BA2B96D30865BEC8726501B /* MUXSDKImaListener.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MUXSDKImaListener.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		76BF6D0FB2D9417434A061FB21E1E2C7 /* MUXSDKImaListener.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MUXSDKImaListener.framework; path = MUXSDKImaListener.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AA908D121ABF1F446FF239741E14A5 /* Pods-DemoApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoApp-dummy.m"; sourceTree = "<group>"; };
-		7C3E70B63FBF7861E7F576ADABAC4033 /* MUXSDKImaListener-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MUXSDKImaListener-prefix.pch"; sourceTree = "<group>"; };
+		7C40AE19F466B6CB6A23BC62DAEE93A0 /* Mux-Stats-Google-IMA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mux-Stats-Google-IMA-Info.plist"; sourceTree = "<group>"; };
+		8EBCC5C4266BEAD38A462E62E3907BEF /* Mux-Stats-Google-IMA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mux-Stats-Google-IMA-umbrella.h"; sourceTree = "<group>"; };
 		9379D548EA932CA7F79D97F635FDA036 /* MUXSDKStats.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MUXSDKStats.framework; path = Frameworks/iOS/fat/MUXSDKStats.framework; sourceTree = "<group>"; };
 		946B1D3001B616EC334839A46A26A4D3 /* Pods-DemoApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoApp-frameworks.sh"; sourceTree = "<group>"; };
+		9BC187F8CE2ED4E29142F506443FA96D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A348704657485029A10E36D9E632A8C6 /* MuxImaListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MuxImaListener.h; path = MUXSDKImaListener/Classes/MuxImaListener.h; sourceTree = "<group>"; };
 		A41D60470BFE3915CC345DE5CCF8BC67 /* Pods-DemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoApp.release.xcconfig"; sourceTree = "<group>"; };
 		A98040C2041942ED4571FE9DDBC30334 /* Mux-Stats-AVPlayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mux-Stats-AVPlayer.xcconfig"; sourceTree = "<group>"; };
-		ADDB824F60B48C4047CAAB190C901791 /* MuxImaListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MuxImaListener.h; path = MUXSDKImaListener/Classes/MuxImaListener.h; sourceTree = "<group>"; };
 		B732BB3F9C8570F83FC0077AF3FFAE3B /* Mux-Stats-Core.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mux-Stats-Core.xcconfig"; sourceTree = "<group>"; };
-		BA2059739CC016C1F0A1C843470A36E1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		BE98F4FB49D535BE293DC9D5C9FE344D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MUXSDKImaListener/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		C0818C34EA82020C028C5145E38F23C3 /* MUXSDKImaListener-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MUXSDKImaListener-umbrella.h"; sourceTree = "<group>"; };
 		C3CB5CC796F6A53577ADB97FD22E398D /* Pods-DemoApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		C5FC284AEBF8304B5B817DF79AE0484C /* GoogleAds-IMA-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GoogleAds-IMA-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
+		DF8EEA04BFFFDB17CA4D34733B39B86E /* Mux-Stats-Google-IMA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mux-Stats-Google-IMA.xcconfig"; sourceTree = "<group>"; };
 		E29370E385DA63D6CAFB58EECFC6BFBB /* Pods-DemoApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoApp-Info.plist"; sourceTree = "<group>"; };
 		E604BEE3D7EE8204E2EA307754FDE881 /* Pods-DemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoApp.debug.xcconfig"; sourceTree = "<group>"; };
-		E7BD946B45136834F679D31423AA0B35 /* MUXSDKImaListener-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MUXSDKImaListener-dummy.m"; sourceTree = "<group>"; };
+		EE7D9E8255767E7571B664781CACBD7B /* Mux-Stats-Google-IMA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mux-Stats-Google-IMA-dummy.m"; sourceTree = "<group>"; };
+		F0652A52BA27F178819A42B088859F66 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0AB89E1CC01CB1C09E0810B9D956407C /* Frameworks */ = {
+		46342EAB8AE613EE6ED924AA0FF8B2B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99F89030F722487033EF1C43B7EE6E8D /* Foundation.framework in Frameworks */,
+				FE9300599ACEC8DA78FE345175D13D67 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97D205F5664B64123424F22B5D9E82BE /* Frameworks */ = {
+		F571D0F8D4677E17BE528320BC47B772 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34D2A655B915E7108FEDD6EEB4EDE70A /* Foundation.framework in Frameworks */,
+				C67D61438BE5AE7564AE669872D2B2DC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,25 +170,26 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		1EA5B5EC09DC0447ABEC2BC17C04C08E /* MUXSDKImaListener */ = {
-			isa = PBXGroup;
-			children = (
-				ADDB824F60B48C4047CAAB190C901791 /* MuxImaListener.h */,
-				5E1D2B62F833585CA32069B8CF948DC8 /* MuxImaListener.m */,
-				BE98F4FB49D535BE293DC9D5C9FE344D /* ReplaceMe.m */,
-				337DFC228B2BFCE1D8972DDB8A08B12F /* Pod */,
-				B43B0935E6979014044BF8A7F3ADC9EA /* Support Files */,
-			);
-			name = MUXSDKImaListener;
-			path = "/Users/dylanjhaveri/code/@muxinc/MUXSDKImaListener";
-			sourceTree = "<absolute>";
-		};
 		29F85440047C01152B30951C1CF6EA78 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				9379D548EA932CA7F79D97F635FDA036 /* MUXSDKStats.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DEB7B64A5797A6F902D7974DFCFE52D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				368A66339C5091DF839FF9B79C77F1E6 /* Mux-Stats-Google-IMA.modulemap */,
+				DF8EEA04BFFFDB17CA4D34733B39B86E /* Mux-Stats-Google-IMA.xcconfig */,
+				EE7D9E8255767E7571B664781CACBD7B /* Mux-Stats-Google-IMA-dummy.m */,
+				7C40AE19F466B6CB6A23BC62DAEE93A0 /* Mux-Stats-Google-IMA-Info.plist */,
+				2E2F799CE3272DF9EEDF550382F47CDC /* Mux-Stats-Google-IMA-prefix.pch */,
+				8EBCC5C4266BEAD38A462E62E3907BEF /* Mux-Stats-Google-IMA-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../../@dylanjha/mux-sdk-demo-app-with-ads/Pods/Target Support Files/Mux-Stats-Google-IMA";
 			sourceTree = "<group>";
 		};
 		2E7DA46597545F01025F2AE0EC52DC8E /* Mux-Stats-AVPlayer */ = {
@@ -209,25 +208,6 @@
 				03D54B5680797DFD9948D4994A3B631B /* GoogleInteractiveMediaAds.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		337DFC228B2BFCE1D8972DDB8A08B12F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BA2059739CC016C1F0A1C843470A36E1 /* LICENSE */,
-				6AD2EA0D2BA2B96D30865BEC8726501B /* MUXSDKImaListener.podspec */,
-				5F5638DEC18488EFE512C54305C6709D /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		4B06C9EB6A042A9E48255370E9AF1562 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				76BF6D0FB2D9417434A061FB21E1E2C7 /* MUXSDKImaListener.framework */,
-				4FE3A8914DCE32ADB404396D24D8F340 /* Pods_DemoApp.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		4DF636EA3CB042B100D265CBAEE9CA83 /* Pods-DemoApp */ = {
@@ -274,18 +254,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B43B0935E6979014044BF8A7F3ADC9EA /* Support Files */ = {
+		8F4A0DC2809C6AD2BA4CD909ACD959C8 /* Mux-Stats-Google-IMA */ = {
 			isa = PBXGroup;
 			children = (
-				4B646DB27F9B47BA3119DDA348054C39 /* MUXSDKImaListener.modulemap */,
-				21FE8DF43A4F390F6B28D52BF20A569B /* MUXSDKImaListener.xcconfig */,
-				E7BD946B45136834F679D31423AA0B35 /* MUXSDKImaListener-dummy.m */,
-				09D4173E1C055F00E21BED649554EC2D /* MUXSDKImaListener-Info.plist */,
-				7C3E70B63FBF7861E7F576ADABAC4033 /* MUXSDKImaListener-prefix.pch */,
-				C0818C34EA82020C028C5145E38F23C3 /* MUXSDKImaListener-umbrella.h */,
+				A348704657485029A10E36D9E632A8C6 /* MuxImaListener.h */,
+				4EC82AC064E0F4EDB7A66594666342F1 /* MuxImaListener.m */,
+				F866EF3AE6FAF15C3D0A9238480FE6A9 /* Pod */,
+				2DEB7B64A5797A6F902D7974DFCFE52D /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../../@dylanjha/mux-sdk-demo-app-with-ads/Pods/Target Support Files/MUXSDKImaListener";
+			name = "Mux-Stats-Google-IMA";
+			path = "/Users/dylanjhaveri/code/@muxinc/mux-sdk-ima-listener";
+			sourceTree = "<absolute>";
+		};
+		A790D9BBC0D7F7CB8EC826C9D48CCC17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5552349ACD4BEE698B04B5C3F21E46F7 /* Mux_Stats_Google_IMA.framework */,
+				4FE3A8914DCE32ADB404396D24D8F340 /* Pods_DemoApp.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -308,10 +295,10 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D9AEAF93ACFB6EA4CE8C57B786FDB657 /* Development Pods */,
+				E3E617871939A79A29F1E3EA4FEDF8A9 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				19DE9F7C7AAA8FA657AD9D999FF43839 /* Pods */,
-				4B06C9EB6A042A9E48255370E9AF1562 /* Products */,
+				A790D9BBC0D7F7CB8EC826C9D48CCC17 /* Products */,
 				C8925A89FCC6A7A7E3FC80329E7EED75 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -324,14 +311,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D9AEAF93ACFB6EA4CE8C57B786FDB657 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1EA5B5EC09DC0447ABEC2BC17C04C08E /* MUXSDKImaListener */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		E2EF9D18C18AB9328ABD5F08540BDF6E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,6 +318,14 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Mux-Stats-Core";
+			sourceTree = "<group>";
+		};
+		E3E617871939A79A29F1E3EA4FEDF8A9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F4A0DC2809C6AD2BA4CD909ACD959C8 /* Mux-Stats-Google-IMA */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		E5F472786F642DF5D0524431E85073ED /* Support Files */ = {
@@ -360,23 +347,33 @@
 			path = "Mux-Stats-Core";
 			sourceTree = "<group>";
 		};
+		F866EF3AE6FAF15C3D0A9238480FE6A9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F0652A52BA27F178819A42B088859F66 /* LICENSE */,
+				5E3855E09A6779DD3C93E24C6E717D3C /* Mux-Stats-Google-IMA.podspec */,
+				9BC187F8CE2ED4E29142F506443FA96D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3079ACDA93712E7EBDFD492AA386F90A /* Headers */ = {
+		A92EE668F04762E2FE83CF514CC3D138 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28D4DBAB062EC2C8999C1EEA0FB19088 /* MuxImaListener.h in Headers */,
-				3B47542C46C0E6F90C9079E60F7FD9D1 /* MUXSDKImaListener-umbrella.h in Headers */,
+				7B27210A01AEF542819555D359B67AFF /* Pods-DemoApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B142561ED3898803414E2934C10D323A /* Headers */ = {
+		EA7FD032D554D0258D7F4425B47F87B5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C929995A8521449BA33A3346A2E2F63B /* Pods-DemoApp-umbrella.h in Headers */,
+				4FD43623F288B0FCDAFB08156B2671A6 /* Mux-Stats-Google-IMA-umbrella.h in Headers */,
+				CAA8DA4B129598E2E3C154FE62EBB917 /* MuxImaListener.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,45 +382,45 @@
 /* Begin PBXNativeTarget section */
 		1BC258032FFF5C240A561B274C5D07F4 /* Pods-DemoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5CB5CB6C88EDD21E3A63476D1F472C43 /* Build configuration list for PBXNativeTarget "Pods-DemoApp" */;
+			buildConfigurationList = 8DAD577FAF309237D9130FB4310E41F4 /* Build configuration list for PBXNativeTarget "Pods-DemoApp" */;
 			buildPhases = (
-				B142561ED3898803414E2934C10D323A /* Headers */,
-				29CF9A58438CE564AE6DDA52E83E887E /* Sources */,
-				0AB89E1CC01CB1C09E0810B9D956407C /* Frameworks */,
-				A33BCBCE90144C2D77F10499E189103D /* Resources */,
+				A92EE668F04762E2FE83CF514CC3D138 /* Headers */,
+				5DFDC422E94FA4CDE0FE4D320539E741 /* Sources */,
+				F571D0F8D4677E17BE528320BC47B772 /* Frameworks */,
+				027188DC79FAF3634B9442530D52A306 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4D78B8522890BD09DF76016FDD99AB1F /* PBXTargetDependency */,
-				5223FAE2FECDD3AD44DD169BCA4FF47C /* PBXTargetDependency */,
-				C24D095C09C8D973A4DD7D00257BDB7F /* PBXTargetDependency */,
-				866E31053EE62EB6A894C05C03D814BD /* PBXTargetDependency */,
+				8C95B250597FA2414244C1E3A237A9C0 /* PBXTargetDependency */,
+				E4472AAB0715CFA798CD84DABEBB18E6 /* PBXTargetDependency */,
+				1F6162D0BDEED82F234F143B293D09C2 /* PBXTargetDependency */,
+				9D7538645155DE9FBDF8F478E6F683CC /* PBXTargetDependency */,
 			);
 			name = "Pods-DemoApp";
 			productName = "Pods-DemoApp";
 			productReference = 4FE3A8914DCE32ADB404396D24D8F340 /* Pods_DemoApp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BF328CAAB8BCE91E104528587663FD4F /* MUXSDKImaListener */ = {
+		3B1CCC34C9408E694F9538659E347B13 /* Mux-Stats-Google-IMA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 139D1DA72845D792E45B23FF140433EF /* Build configuration list for PBXNativeTarget "MUXSDKImaListener" */;
+			buildConfigurationList = D2C020373ACCF69E6B296B4E3FC7B34C /* Build configuration list for PBXNativeTarget "Mux-Stats-Google-IMA" */;
 			buildPhases = (
-				3079ACDA93712E7EBDFD492AA386F90A /* Headers */,
-				A822C81C8E813A5F97B340E5DFE72FE8 /* Sources */,
-				97D205F5664B64123424F22B5D9E82BE /* Frameworks */,
-				4BE51984D21E4D25AD4F4B0DAE7B356D /* Resources */,
+				EA7FD032D554D0258D7F4425B47F87B5 /* Headers */,
+				EF7C0F4BEA4CEA1E50DB1693814C01D2 /* Sources */,
+				46342EAB8AE613EE6ED924AA0FF8B2B0 /* Frameworks */,
+				15E7CF2C9A5A5AB5BA34BB17D743A941 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0AEC180E312C852DCADF22A50B6ADA67 /* PBXTargetDependency */,
-				CA9C75BBD97347CBFB838957228E0FC9 /* PBXTargetDependency */,
-				4CCC064674804018E54FEAB8061A7852 /* PBXTargetDependency */,
+				1313312045C2550CAEF2B0CBECAE13AE /* PBXTargetDependency */,
+				814574DFE95C42F1B0AA8387C527EC3E /* PBXTargetDependency */,
+				40238C89EEA601364BB05D564B9CBD75 /* PBXTargetDependency */,
 			);
-			name = MUXSDKImaListener;
-			productName = MUXSDKImaListener;
-			productReference = 76BF6D0FB2D9417434A061FB21E1E2C7 /* MUXSDKImaListener.framework */;
+			name = "Mux-Stats-Google-IMA";
+			productName = "Mux-Stats-Google-IMA";
+			productReference = 5552349ACD4BEE698B04B5C3F21E46F7 /* Mux_Stats_Google_IMA.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -443,28 +440,28 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 4B06C9EB6A042A9E48255370E9AF1562 /* Products */;
+			productRefGroup = A790D9BBC0D7F7CB8EC826C9D48CCC17 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				7362DAB47E2EFA5452F30DD7E9830B56 /* GoogleAds-IMA-iOS-SDK */,
 				8A628F9FECD1E366F0AF90449C4E8B0A /* Mux-Stats-AVPlayer */,
 				78D7420028AA6BE7CBA9A3DC7529E196 /* Mux-Stats-Core */,
-				BF328CAAB8BCE91E104528587663FD4F /* MUXSDKImaListener */,
+				3B1CCC34C9408E694F9538659E347B13 /* Mux-Stats-Google-IMA */,
 				1BC258032FFF5C240A561B274C5D07F4 /* Pods-DemoApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4BE51984D21E4D25AD4F4B0DAE7B356D /* Resources */ = {
+		027188DC79FAF3634B9442530D52A306 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A33BCBCE90144C2D77F10499E189103D /* Resources */ = {
+		15E7CF2C9A5A5AB5BA34BB17D743A941 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -474,79 +471,78 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		29CF9A58438CE564AE6DDA52E83E887E /* Sources */ = {
+		5DFDC422E94FA4CDE0FE4D320539E741 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				613C0EF1BE042810CE44E7C74165AC67 /* Pods-DemoApp-dummy.m in Sources */,
+				F08469AA9EBCAB9B4855E5B272BA1B96 /* Pods-DemoApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A822C81C8E813A5F97B340E5DFE72FE8 /* Sources */ = {
+		EF7C0F4BEA4CEA1E50DB1693814C01D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				727485D2B7E23BEBD66265D28A6469A7 /* MuxImaListener.m in Sources */,
-				8DA233CC4C4F4C471F7486FE1DFD9BAE /* MUXSDKImaListener-dummy.m in Sources */,
-				3D5DE0CFAAFF4D08A12C4B7F75163C4C /* ReplaceMe.m in Sources */,
+				55603032262A856AD9323ED7D3D06340 /* Mux-Stats-Google-IMA-dummy.m in Sources */,
+				80CA70B0BBD126281B22DD7D65477629 /* MuxImaListener.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0AEC180E312C852DCADF22A50B6ADA67 /* PBXTargetDependency */ = {
+		1313312045C2550CAEF2B0CBECAE13AE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GoogleAds-IMA-iOS-SDK";
 			target = 7362DAB47E2EFA5452F30DD7E9830B56 /* GoogleAds-IMA-iOS-SDK */;
-			targetProxy = 9F8C2334A0CB264D0AD2AD503DDCF38C /* PBXContainerItemProxy */;
+			targetProxy = 8656E204D1338FA134DB7E000AE1AD6E /* PBXContainerItemProxy */;
 		};
-		4CCC064674804018E54FEAB8061A7852 /* PBXTargetDependency */ = {
+		1F6162D0BDEED82F234F143B293D09C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Mux-Stats-Core";
 			target = 78D7420028AA6BE7CBA9A3DC7529E196 /* Mux-Stats-Core */;
-			targetProxy = 303716674B6B64496A84E9219D4EF263 /* PBXContainerItemProxy */;
+			targetProxy = AB28DFBDD6501F1A56D44AE83C926462 /* PBXContainerItemProxy */;
 		};
-		4D78B8522890BD09DF76016FDD99AB1F /* PBXTargetDependency */ = {
+		40238C89EEA601364BB05D564B9CBD75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mux-Stats-Core";
+			target = 78D7420028AA6BE7CBA9A3DC7529E196 /* Mux-Stats-Core */;
+			targetProxy = 4D4950496D387C9000C25DFE5F904BDB /* PBXContainerItemProxy */;
+		};
+		814574DFE95C42F1B0AA8387C527EC3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mux-Stats-AVPlayer";
+			target = 8A628F9FECD1E366F0AF90449C4E8B0A /* Mux-Stats-AVPlayer */;
+			targetProxy = D5A27D7624041FFD2572C15D4761DC12 /* PBXContainerItemProxy */;
+		};
+		8C95B250597FA2414244C1E3A237A9C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GoogleAds-IMA-iOS-SDK";
 			target = 7362DAB47E2EFA5452F30DD7E9830B56 /* GoogleAds-IMA-iOS-SDK */;
-			targetProxy = 7545C1AC6306CBF018C4A7C13254023C /* PBXContainerItemProxy */;
+			targetProxy = 2947EAA9F4BC9017913900F596F9A8AD /* PBXContainerItemProxy */;
 		};
-		5223FAE2FECDD3AD44DD169BCA4FF47C /* PBXTargetDependency */ = {
+		9D7538645155DE9FBDF8F478E6F683CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MUXSDKImaListener;
-			target = BF328CAAB8BCE91E104528587663FD4F /* MUXSDKImaListener */;
-			targetProxy = 02FB8CED1A7393DE9AA1E53B08CAB0B7 /* PBXContainerItemProxy */;
+			name = "Mux-Stats-Google-IMA";
+			target = 3B1CCC34C9408E694F9538659E347B13 /* Mux-Stats-Google-IMA */;
+			targetProxy = E68C3967CE3C4B04DC3146B8A504F15F /* PBXContainerItemProxy */;
 		};
-		866E31053EE62EB6A894C05C03D814BD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Mux-Stats-Core";
-			target = 78D7420028AA6BE7CBA9A3DC7529E196 /* Mux-Stats-Core */;
-			targetProxy = 615C17CBDAD26C1CEAE13F440D34E107 /* PBXContainerItemProxy */;
-		};
-		C24D095C09C8D973A4DD7D00257BDB7F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Mux-Stats-AVPlayer";
-			target = 8A628F9FECD1E366F0AF90449C4E8B0A /* Mux-Stats-AVPlayer */;
-			targetProxy = CDC75711933BA2CCE241725A8A70D284 /* PBXContainerItemProxy */;
-		};
-		CA9C75BBD97347CBFB838957228E0FC9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Mux-Stats-AVPlayer";
-			target = 8A628F9FECD1E366F0AF90449C4E8B0A /* Mux-Stats-AVPlayer */;
-			targetProxy = 05B9747578231251C3E9B247CB2EA887 /* PBXContainerItemProxy */;
-		};
-		E7D87F6C378CF0A6620D7938838D0DA9 /* PBXTargetDependency */ = {
+		B10BAA4E0861A6EFB4128DBEE53CF988 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Mux-Stats-Core";
 			target = 78D7420028AA6BE7CBA9A3DC7529E196 /* Mux-Stats-Core */;
-			targetProxy = F3A521F4C8F3B1ECD8559748305D6AEA /* PBXContainerItemProxy */;
+			targetProxy = 1057D68825BFCD5F9C2513DDEDF53984 /* PBXContainerItemProxy */;
+		};
+		E4472AAB0715CFA798CD84DABEBB18E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mux-Stats-AVPlayer";
+			target = 8A628F9FECD1E366F0AF90449C4E8B0A /* Mux-Stats-AVPlayer */;
+			targetProxy = 8A4DEAC423FE6BAD952DC933B04A1F23 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		22D081B3B199F727ABD23B43D9200AED /* Debug */ = {
+		263FD9FA6CAA5627070D6FAA730CDC0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A98040C2041942ED4571FE9DDBC30334 /* Mux-Stats-AVPlayer.xcconfig */;
 			buildSettings = {
@@ -559,9 +555,9 @@
 			};
 			name = Debug;
 		};
-		4BB74BE083145FAF4A4C50F4274289EA /* Release */ = {
+		39591ED15EABBBC332C55C167E292F51 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21FE8DF43A4F390F6B28D52BF20A569B /* MUXSDKImaListener.xcconfig */;
+			baseConfigurationReference = DF8EEA04BFFFDB17CA4D34733B39B86E /* Mux-Stats-Google-IMA.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -572,14 +568,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MUXSDKImaListener/MUXSDKImaListener-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MUXSDKImaListener/MUXSDKImaListener-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Mux-Stats-Google-IMA/Mux-Stats-Google-IMA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mux-Stats-Google-IMA/Mux-Stats-Google-IMA-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MUXSDKImaListener/MUXSDKImaListener.modulemap";
-				PRODUCT_MODULE_NAME = MUXSDKImaListener;
-				PRODUCT_NAME = MUXSDKImaListener;
+				MODULEMAP_FILE = "Target Support Files/Mux-Stats-Google-IMA/Mux-Stats-Google-IMA.modulemap";
+				PRODUCT_MODULE_NAME = Mux_Stats_Google_IMA;
+				PRODUCT_NAME = Mux_Stats_Google_IMA;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -590,21 +586,7 @@
 			};
 			name = Release;
 		};
-		5627A73FD6078094524BE3EA32B6230C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5FC284AEBF8304B5B817DF79AE0484C /* GoogleAds-IMA-iOS-SDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		695AF4B7867BDB714777FA9422904AE8 /* Release */ = {
+		55FCDA3220236B871AFC65CC913C11A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A41D60470BFE3915CC345DE5CCF8BC67 /* Pods-DemoApp.release.xcconfig */;
 			buildSettings = {
@@ -638,43 +620,13 @@
 			};
 			name = Release;
 		};
-		6B3C957BDEDFB1AE26648BA3BAEBB20E /* Debug */ = {
+		5627A73FD6078094524BE3EA32B6230C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21FE8DF43A4F390F6B28D52BF20A569B /* MUXSDKImaListener.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MUXSDKImaListener/MUXSDKImaListener-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MUXSDKImaListener/MUXSDKImaListener-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MUXSDKImaListener/MUXSDKImaListener.modulemap";
-				PRODUCT_MODULE_NAME = MUXSDKImaListener;
-				PRODUCT_NAME = MUXSDKImaListener;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		73901FC21F94F9ECF9D6A9D6A99AB7E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A98040C2041942ED4571FE9DDBC30334 /* Mux-Stats-AVPlayer.xcconfig */;
+			baseConfigurationReference = C5FC284AEBF8304B5B817DF79AE0484C /* GoogleAds-IMA-iOS-SDK.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -682,7 +634,7 @@
 			};
 			name = Release;
 		};
-		86ECC46DEF0BC791A269A525D454A273 /* Debug */ = {
+		6C21CC4B668762B32765F749BB4697A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B732BB3F9C8570F83FC0077AF3FFAE3B /* Mux-Stats-Core.xcconfig */;
 			buildSettings = {
@@ -819,34 +771,7 @@
 			};
 			name = Debug;
 		};
-		A1ACA014E00021EE5F06DF727560DF9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5FC284AEBF8304B5B817DF79AE0484C /* GoogleAds-IMA-iOS-SDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		B02C6B3429980DE2BD4B45320F80199A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B732BB3F9C8570F83FC0077AF3FFAE3B /* Mux-Stats-Core.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		EF26F45B53B1A5227CC978DB8AACFF1C /* Debug */ = {
+		94758F69329C92AD6E20D700D853E57C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E604BEE3D7EE8204E2EA307754FDE881 /* Pods-DemoApp.debug.xcconfig */;
 			buildSettings = {
@@ -879,18 +804,80 @@
 			};
 			name = Debug;
 		};
+		A1ACA014E00021EE5F06DF727560DF9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FC284AEBF8304B5B817DF79AE0484C /* GoogleAds-IMA-iOS-SDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B51D90E3FA2B8FCDF8CDA04927064E58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8EEA04BFFFDB17CA4D34733B39B86E /* Mux-Stats-Google-IMA.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Mux-Stats-Google-IMA/Mux-Stats-Google-IMA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Mux-Stats-Google-IMA/Mux-Stats-Google-IMA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Mux-Stats-Google-IMA/Mux-Stats-Google-IMA.modulemap";
+				PRODUCT_MODULE_NAME = Mux_Stats_Google_IMA;
+				PRODUCT_NAME = Mux_Stats_Google_IMA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE61C2AAF8AE809BDABEE0593FFB3675 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B732BB3F9C8570F83FC0077AF3FFAE3B /* Mux-Stats-Core.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9898E9F838A7AFCA8B622E3D68132C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98040C2041942ED4571FE9DDBC30334 /* Mux-Stats-AVPlayer.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		139D1DA72845D792E45B23FF140433EF /* Build configuration list for PBXNativeTarget "MUXSDKImaListener" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6B3C957BDEDFB1AE26648BA3BAEBB20E /* Debug */,
-				4BB74BE083145FAF4A4C50F4274289EA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -900,29 +887,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5CB5CB6C88EDD21E3A63476D1F472C43 /* Build configuration list for PBXNativeTarget "Pods-DemoApp" */ = {
+		58BB8F9430E15506669FA6A271ED11A1 /* Build configuration list for PBXAggregateTarget "Mux-Stats-Core" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF26F45B53B1A5227CC978DB8AACFF1C /* Debug */,
-				695AF4B7867BDB714777FA9422904AE8 /* Release */,
+				6C21CC4B668762B32765F749BB4697A7 /* Debug */,
+				CE61C2AAF8AE809BDABEE0593FFB3675 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B995C864D28D0796B49C3DA8BA848F77 /* Build configuration list for PBXAggregateTarget "Mux-Stats-Core" */ = {
+		8DAD577FAF309237D9130FB4310E41F4 /* Build configuration list for PBXNativeTarget "Pods-DemoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				86ECC46DEF0BC791A269A525D454A273 /* Debug */,
-				B02C6B3429980DE2BD4B45320F80199A /* Release */,
+				94758F69329C92AD6E20D700D853E57C /* Debug */,
+				55FCDA3220236B871AFC65CC913C11A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7A6AA050D21CA1CF4032555B16F1BDC /* Build configuration list for PBXAggregateTarget "Mux-Stats-AVPlayer" */ = {
+		A74AD33A16ED04790C3131C3191DBC97 /* Build configuration list for PBXAggregateTarget "Mux-Stats-AVPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22D081B3B199F727ABD23B43D9200AED /* Debug */,
-				73901FC21F94F9ECF9D6A9D6A99AB7E9 /* Release */,
+				263FD9FA6CAA5627070D6FAA730CDC0B /* Debug */,
+				E9898E9F838A7AFCA8B622E3D68132C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2C020373ACCF69E6B296B4E3FC7B34C /* Build configuration list for PBXNativeTarget "Mux-Stats-Google-IMA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51D90E3FA2B8FCDF8CDA04927064E58 /* Debug */,
+				39591ED15EABBBC332C55C167E292F51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

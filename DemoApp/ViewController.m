@@ -2,7 +2,7 @@
 
 @import MuxCore;
 @import MUXSDKStats;
-@import MUXSDKImaListener;
+@import Mux_Stats_Google_IMA;
 
 static NSString *DEMO_PLAYER_NAME = @"demoplayer";
 

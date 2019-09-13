@@ -162,17 +162,17 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${PODS_ROOT}/GoogleAds-IMA-iOS-SDK/GoogleInteractiveMediaAds.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MUXSDKImaListener/MUXSDKImaListener.framework"
   install_framework "${PODS_ROOT}/Mux-Stats-AVPlayer/Frameworks/iOS/fat/MUXSDKStats.framework"
   install_dsym "${PODS_ROOT}/Mux-Stats-AVPlayer/Frameworks/iOS/fat/MUXSDKStats.framework.dSYM"
   install_framework "${PODS_ROOT}/Mux-Stats-Core/Frameworks/iOS/fat/MuxCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Mux-Stats-Google-IMA/Mux_Stats_Google_IMA.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${PODS_ROOT}/GoogleAds-IMA-iOS-SDK/GoogleInteractiveMediaAds.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MUXSDKImaListener/MUXSDKImaListener.framework"
   install_framework "${PODS_ROOT}/Mux-Stats-AVPlayer/Frameworks/iOS/fat/MUXSDKStats.framework"
   install_dsym "${PODS_ROOT}/Mux-Stats-AVPlayer/Frameworks/iOS/fat/MUXSDKStats.framework.dSYM"
   install_framework "${PODS_ROOT}/Mux-Stats-Core/Frameworks/iOS/fat/MuxCore.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Mux-Stats-Google-IMA/Mux_Stats_Google_IMA.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
