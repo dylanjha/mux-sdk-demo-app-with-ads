@@ -3,7 +3,6 @@
 @import AVKit;
 @import AVFoundation;
 @import GoogleInteractiveMediaAds;
-@import Mux_Stats_Google_IMA;
 
 @class MuxImaListener;
 @class MUXSDKPlayerBinding;
